@@ -1,5 +1,11 @@
 <div>
-    <p style="color:red;font-size:300px">
-    Holiiiii!! 
+    <p style="color:green;font-size:300px">
+    Holiiiii <%=@nombre%>!! 
     </p>
+    
+    <% if @imprimir%>
+        <p>
+         <%=Time.now%>
+        </p>
+    <%end%>
 </div>

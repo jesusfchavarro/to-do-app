@@ -1,6 +1,8 @@
 class WelcomeController < ApplicationController
     
-    def index 
-       puts "holi consola" 
+    def index() 
+        @imprimir = !false    
+       puts "holi consola"
+       @nombre = "Jesus"
     end
 end
